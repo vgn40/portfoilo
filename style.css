@@ -30,6 +30,9 @@ header {
     color: #FFF;
 }
 
+.nav li:not(:first-child) {
+    margin-right: 20px;
+}
 .nav li:not(:last-child) {
     margin-right: 20px;
 }
@@ -39,32 +42,28 @@ a {
     text-decoration: none;
 }
 
-h1 {
-
-}
-h2 {
-
-}
-h3 {
-
-}
-h4 {
-
-}
-
-.main {padding:25px;width: 66%; background-color: aliceblue; height: 460px; border-radius: 20px;}
+.main {padding:25px;width: 66%; background-color: aliceblue; height: 460px; border-radius: 20px;margin-left: 10%}
 .off {padding:25px;width:33%; background-color: aliceblue; margin-left: 25px;  height: 460px; border-radius: 20px;}
 
-.content { margin-left: 50px;float: left; display:flex; padding: 50px; position: absolute; width: 75%}
+.content { margin-left: 50px;
+           float: left;
+           display:flex; padding: 50px; position: absolute; width: 75%;
+            margin-bottom: 150px;
+}
 
 .billedeafmigselv {
     max-width:100%;
     max-height: 100%;
 }
 
-.fod {width: 100%;
+.fod {
+    width: 100%;
     background-color: #1D68E2;
     height: 50px;
     display: flex;
-    float: left;
+    position: fixed;
+    bottom: 0;
+    padding: 20px 0 20px 0;
 }
+
+.footerbillede {padding: 0 25% 0 25%;}
