@@ -1,14 +1,15 @@
 * { font-family: "Comic Sans MS";
-    color: #FFF;}
-
-
+    color: #000000;}
 body {
     margin: 0;
     padding: 0;
+    background-image: url("./img/2.jpg");
+    background-size: cover;
 }
 
 header {
-    background-color: #2C64B4;
+    background-color: #4A87E8;
+    padding-bottom: 10px;
 }
 
 .nav-container {
@@ -20,8 +21,8 @@ header {
 .nav li {
     margin: 0;
     list-style-type: none;
-    padding-right: 20px;
-    float: left;
+    padding-left: 20px;
+    float: right;
 }
 
 .nav li a {
@@ -38,12 +39,32 @@ a {
     text-decoration: none;
 }
 
+h1 {
 
-h1 {position: absolute;
-    padding: 50px;}
-h2 {position: absolute;
-        padding: 100px;}
-h3 {position: absolute;
-    padding: 133px;}
-h4 {position: absolute;
-    padding: 150px;}
+}
+h2 {
+
+}
+h3 {
+
+}
+h4 {
+
+}
+
+.main {padding:25px;width: 66%; background-color: aliceblue; height: 460px; border-radius: 20px;}
+.off {padding:25px;width:33%; background-color: aliceblue; margin-left: 25px;  height: 460px; border-radius: 20px;}
+
+.content { margin-left: 50px;float: left; display:flex; padding: 50px; position: absolute; width: 75%}
+
+.billedeafmigselv {
+    max-width:100%;
+    max-height: 100%;
+}
+
+.fod {width: 100%;
+    background-color: #1D68E2;
+    height: 50px;
+    display: flex;
+    float: left;
+}
